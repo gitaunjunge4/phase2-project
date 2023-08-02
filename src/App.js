@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <h1>CarHub</h1>
           <div className='biggerDiv'>
           {eachCar}
           </div>
