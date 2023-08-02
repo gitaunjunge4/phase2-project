@@ -47,6 +47,7 @@
 .card{
   margin: 1rem;
   border-radius: 2rem;
+  box-shadow: 1px 1px 15px grey;
 }
 
 .card-img-top{
@@ -57,16 +58,28 @@
 
 .card-text{
   text-align: left;
+  line-height: 0.7rem;
 }
 
 .card-body > button {
-  float: left;
+
 }
 
 .card-title{
   text-align: left;
+
 }
 
 #price{
   color: red;
 }
+
+#viewCar{
+  float: left;
+}
+
+#deleteCar{
+  float: right;
+  background-color: rgb(230, 81, 81);
+}
+
