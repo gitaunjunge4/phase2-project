@@ -21,7 +21,7 @@
     {
       "id": 2,
       "car": "Toyota",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Toyota-Logo.png",
+      "car_logo": "https://seeklogo.com/images/T/toyota-logo-08A29AEE08-seeklogo.com.png",
       "car_model": "Camry",
       "car_transmission": "automatic",
       "car_condition": "new",
@@ -33,12 +33,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/kJJ7v/s3/2022-toyota-camry-trd.jpg"
+      "image_url": "https://global.toyota/pages/models/images/camry/camry_010_s.jpg"
     },
     {
       "id": 3,
       "car": "Honda",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Honda-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/03/Honda-logo.png",
       "car_model": "Accord",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -50,7 +50,7 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/KJ9gW/s3/2022-honda-accord-sedan.jpg"
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/6310cb2cbb908f077de4f565/2022-Honda-Accord-Hybrid-1/960x0.jpg?format=jpg&width=960"
     },
     {
       "id": 4,
@@ -67,12 +67,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/3EMp5/s3/2022-ford-f-150-lariat.jpg"
+      "image_url": "https://www.motortrend.com/uploads/2022/09/01-2023-Ford-F-150-Lightning-Lariat-front-three-quarter-2.jpg"
     },
     {
       "id": 5,
       "car": "Chevrolet",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/09/Chevrolet-Logo.png",
+      "car_logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
       "car_model": "Impala",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -84,12 +84,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/yJgxE/s3/2022-chevrolet-impala.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/2014_Chevrolet_Impala_LTZ_3.6L_with_courtesy_plates%2C_front_6.1.19.jpg/1200px-2014_Chevrolet_Impala_LTZ_3.6L_with_courtesy_plates%2C_front_6.1.19.jpg"
     },
     {
       "id": 6,
       "car": "Nissan",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/09/Nissan-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nissan_logo.png/1196px-Nissan_logo.png",
       "car_model": "Altima",
       "car_transmission": "automatic",
       "car_condition": "new",
@@ -101,12 +101,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/3EOZ8/s3/2022-nissan-altima.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2019_Nissan_Altima_SL_2.5L_front_3.22.19.jpg"
     },
     {
       "id": 7,
       "car": "BMW",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/09/BMW-Logo.png",
+      "car_logo": "data:image/png;base64,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",
       "car_model": "3 Series",
       "car_transmission": "automatic",
       "car_condition": "new",
@@ -118,12 +118,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/z3jE4/s3/2022-bmw-3-series.jpg"
+      "image_url": "https://cdn.motor1.com/images/mgl/174Wp/s1/2019-bmw-3-series.jpg"
     },
     {
       "id": 8,
       "car": "Audi",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/09/Audi-Logo.png",
+      "car_logo": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/10/Audi-Logo-Banner.png",
       "car_model": "Q5",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -135,12 +135,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/Bg9z2/s3/2022-audi-q5.jpg"
+      "image_url": "https://www.motortrend.com/uploads/sites/5/2021/09/2022-Audi-Q5-Sportback-80.jpg"
     },
     {
       "id": 9,
       "car": "Volkswagen",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Volkswagen-Logo.png",
+      "car_logo": "https://assets.stickpng.com/images/580b585b2edbce24c47b2cf2.png",
       "car_model": "Tiguan",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -154,12 +154,12 @@
       "theft": true,
 
 
-      "image_url": "https://cdn.motor1.com/images/mgl/WVEBP/s3/2022-volkswagen-tiguan.jpg"
+      "image_url": "https://media.ed.edmunds-media.com/volkswagen/tiguan/2022/oem/2022_volkswagen_tiguan_4dr-suv_sel-r-line_fq_oem_1_1600.jpg"
     },
     {
       "id": 10,
       "car": "Mercedes-Benz",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Mercedes-Benz-Logo.png",
+      "car_logo": "data:image/jpeg;base64,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",
       "car_model": "E-Class",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -171,12 +171,12 @@
       "availability": false,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/zbV74/s3/2022-mercedes-benz-e-class.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2024-mercedes-benz-e-class-exterior-105-6446a2cb7003d.jpg?crop=0.671xw:0.753xh;0.135xw,0.247xh&resize=640:*"
     },
     {
       "id": 11,
       "car": "Toyota",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/04/Toyota-Logo.png",
+      "car_logo": "https://seeklogo.com/images/T/toyota-logo-08A29AEE08-seeklogo.com.png",
       "car_model": "Corolla",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -188,12 +188,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/p16b7/s3/toyota-corolla.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2015_Toyota_Corolla_S_rear.jpg/2560px-2015_Toyota_Corolla_S_rear.jpg"
     },
     {
       "id": 12,
       "car": "BMW",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/04/BMW-Logo.png",
+      "car_logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAolBMVEUAAAD///8ArOwAsfOHh4cAW33T09NJSUn09PR6enrc3NwAtPeenp7k5ORpaWn8/Py8vLyrq6tRUVHu7u6ysrJhYWEaGho9PT0wMDB/f3+9vb1ERETLy8vFxcXQ0NCOjo4ODg4AndcAfKoAjMFoaGihoaFZWVkAKTiWlpY5OTkApeMAZ40AFBsANEcAU3IAntkoKCgAcZsXFxcALj8AR2EAGyYo2Hk/AAAPhklEQVR4nO2dh3bbuBKGoZViq1G9Oi5yl+0kTtv3f7VLgAAJsOKfAS3vOXfO2Y3V8ZHANAwA0Wld+sOr1bg3WC+2u81BCHHY7LaL9aA3Xl0N++3/vGjzy6PZcbIT9bKbHGdRm41oizBa7bcNbLZs96u2MNsgjOYTAC6Th3kblMEJr/YkOiODq9ANCko4na1ZeImsZ9OQjQpIeBECT0NehGtWKMIhr3MWZT8M1LIwhKsmm0CR3SpI2wIQ9m8qmth7HEt5rDAb+tW6i3MTwCNgE0bVlsH0s6vSVwf61fMaQiEmbAPCJBzWaZcz865D2aum6fWEsdZhDkgWYVSvPVPCecmLT+bFJsL4raz7yCBcNnkuKWGn7sVmwrivLk9BWKVfchDX8n+9wmsv8um+L2Gscz6ccOXRKkU4kQ7KsvCaNOmrpT+hEFTbQSOMvOKGhPBR/j8/YA/yyQNwD2PZ0oYjibDY6aoJB+oXznIvzePnrgVGGBvYDyI8O3g2SBMqH/PFfUk+tYAJxeGsulnhCP0dUE24lf9cOK8c42cigRPG7mrrhNHGvzWaMPnXeUWiTUiE4jfqAICEY6QxhnAt/320XpAO21LQCIUYt0g4XUBNMYRCWoWp9YJUij0yoVhAETJCOARbkhKqwZON3ycDTCTMfPrAhGXepR+hcK2+fH7MIlTWJjjhAG5GRqiGzpN+WjlsgkeYxl7hCKdf8VZkhOpXrvXTymHjEoqvvoPRk3B5IDTCIlROZRLNK4dtwyYUB894w48Q1TEFwp/yz5n6Uw4hHfWzCH31jRfhJa0FFqG4VD8mRf6xDUKYfGkIwhmxATbhQv4tFah02IwfziUUszCEPqFgI6Gy8lNNZWIpNqFP0NhMCJvBcsJB8kD+E5k3kAmzi95sGBsJ6YAuocKJ1K10nqIQzjsAYhMhuYsWCFWmZRL/10/fQCSUnnzmAzZ11AZCqpIpIUx/KUthEQnlp6LsYYO6qSckmolyQtOfsjfQCKUZtCOVBqNRS0gz9KnkCH8nX2oFiiTCcfFDtaa/jjCLBr7Oz5bRZXOG1JWhSyiucrdQhRwooTKs+ZbUOXA1hNOD/vw2vUZHqDE38/l8ZQXN21X8hJ2ne5RvACfm5FUpTPUcatzwGkITTRyt51iaJ4Rcd8ryy+IrhdB0L7d0wDNV2pYok1OWDKuOFysJjaXPZSinJd/+caISk+UTXpWWv4rQqFE1sdK5Xm9ebpK+TiuVCSRS+Val+6oUagWhuVWJwzCwvoPhxbFFDpj8/EAmFdqmglBrwBv7QfIdJ9Q1MmXXd58aRA/p3wuEUPeEiXrwlH6H1KokR/X7j7e7+9v313+6X0SvM+0vh5ez8R7LvoqdbIwz/3GUvfZn+rA8VVxKqJ2+RAVbA0+6vDfi6Up+sW8Bzfe3+9fRqBvLP7Eowkz6l+On5q/QIs265T/stD9q3dXS6bdSwkQdJ16W7T7IezpJR/Typ2iQ57f77ihB05IjVHJ2fGn6IikzpwOtMx2fOc8bX8J9ds3cTpnXyLXuyPOv95ENV0koL9a8ccpVXt3UT+5pN+1R/puNxNKZqRJCra2G1t9a8toqN+xt+XJbxKsmjCWq93rl7dEK/re+0NNHdcmde1Ayv1hCeFDvVb3c9Y/MSI6GBrVC7fx71y3DqyWMZVbTJ+QQUz76QvtYy32iF9wmHnwIE79MOaOuA6N9PxX9POluUtaYP/elt6+ZMPYsqjLrc92wgVYm10pByb9yY7j47QXCRI8mdsL9tLpxfXOdE4VTnMx4ruFrJIybXqp15M2KDfFY9x0dj8guWejbBX1aIFRD/lz96X5aIVl9Qr2lYP/v6vg8CPPz4elvnRk91zchnJ15zWTbRKhG1k4/sE3eVQ4w+cHcL7xVjT+AsCQKjS9uX/NFaa9RKCVXI5+ZyhMm7zIqKcs4KC3jjMuHAuHzbQOfJ2Fn6dqOzEhdWm6QnVp2pJ7QdExzIUw0nYRfjq5TbqDdS3+Nmvh8Cd1Z/zSZNrcDw2yOLi+5AjGXcFl4W5TRdFwHS0FnAfG35hsIELo1H1IF5Op0TbGDJWnndrM2LqHlgz7op/o/9dxYvpBGDcz00V8fPoDQDUSnw1xYqjxKR+2OMx01qSaM7I9sjVnXtUu5wFD5gGlKyKeHgoS1kai0CfZNTYbq0Xq1nNAduOkkq/pAPjl8bV/Fe09AiDCdFi+KrAbMlNzGaA3TbddVhIUEsOXlRbmXVDuNnvEagjhh4UeNKLVgHvw0azMsRWtnNGzCou5NpwTyCTz1G9p4fHv1BgQJO/3yGjM5frTa25pU4MqO5eybaBGWXTGTK81Z9iQQS37kX288nLAzLYtB5TxFYk7Or/Xb8k6CNRItwtIsmtFL7tVUqmeMA8KEdpLCyN5c8SfdGaOid2yp04ywIthLs8nW/IL65kT1fIMACYTTfEfd6bZOnDAjL9lSlIywKgL9bVRqeqVU19d9+rVtwsKVl83ZiIFu1aoilZI5NhlhBaDINJPu7LaL6q9FyYQ5/SAtw3aQ3KLC8LOkSFiXJTT6WDkNtot6DwKSCB27KLVkUuNfNvxyV8IlrM0qGZU6dF1UX0+GSWh5N1k2rXz4ZWIiwJSwYbrX6KZlongSF/UvDEgkzNS8WUvkMetoxpYhbMrvnhev6Te0i9IJswk1+empVy22ySwawsYPbDL9q13UWxyQTJhpm4ulb6GrS1iWHMnL0P21X4RbSCZ0Q2I/uXAIvRYpJy6gtk/P+CDkEHaQ/QsSWduEnjO7yhJqE/tOAWQQlkzeN8nUIvSdFBykk4lvlD7KIQTrQKTMLELvlfRrk5ihAXIIm5VhobEWIfzhuxMQ+mhDVzLC8sXWNUJTM0zC/BRFs1ylhPB+CLA/GoSwOm9TIfuUEP3kH+ot5BF24DUfhrAq4VMp5FvIJISLQSNNiJbIkEchl7A+ACqRuSZ8aH6rI1RFyidEi3kmmhD8GNUWBiCEm5oQosPwywkJ0SLeSBGiVU6UqCkUIXo3VooQtIYMPcMnREOMvSIEP0SKC4MRgnp/qwixzxDDplCEaBAlCcGuzeqkfELUOY1iQtDGEAPDYIRgmDiLCcGP3HMAAxBW1wiXyjEmBAu3WbcwACGoNiYxIebrfWcNwxCE/iW3UnYxIfQB5jAMQQiOqo6oqREtE3rgFIoQDKH6AlyfBs4XtkAI3pKhAHM0vGEYghAcVlcC87uZiiYIIbacbyWgPXXED94wDEKIbUEyFthiNKYqDUKI3ZOewK4II4ERjBBzMwcC2xqXaSyCEGLmYi2wxUec+D4UIWbfFgKLf1nBYSBCLETcCswtZRr8IISYyd8JYIe5WJiAQQixhbobcYDe32XK6AtjJ1IjUIsxPiG+cOWPOL/pMQVs8//FFe7lvzkXf9j9AGzzAXo3ewzdiC8j7mAG+TBdyj61oMea9kgEavEGtIfsXeADEL5CLd6BPg1jX+1ghLdQi7egX8o+kuHDCRdgbOG1y127hN17qMVrMD702eSubcI7qMUDMMYH9/BthfANanEPzNP4b4zaHuEPqMVjMNdWsX/IRxKOvkMtXqH50k9AiDX4Es15c00+nxAz+DEfmCTnmgs2IWgsYj4wSX5shmiZEFOlAp4/fGqGaJcQVDQ7fA741IRY7KTmgMEZR8IJE0EJwWF4xGsxmAORS4gOwwu8nubltISjZ6y5EaEmihcicgnfwdZS6tqAYwnCE3Z/YY3dUmoTC1vcfCQh2kn3pPpS1iloTEIsvlfxLKFGmJWW5xF20VxpRKvzPiEhoamUWn1OKoNFCCYwslp9dL3FrgmjLcLRv2BLzXoLeM0MI4TiEKKBU7ZmBh6INTsvt0k4+oM2tNOhrl27PgUhfguztWvw+kO6c8ogRK29vf4QX0NKPlWaTggrUnsNqf86YPfDH0sIt9FeB4xv8EwNE8mEaGAo3LXchJ3WiUEUmRD1SIW7Hp/QTYkhBpUQVzPungqEleBqV7gPI0TjQinuvhi4NiVGUURCQh/N7W2CG/2K3bPbIex+w5uX35+GcqTMpAojNOHoL6F1+T2G4GXSUggpGwrhiDAIi/tE0U4EwP1TAiHuj0op7vVF0TUEbYMTdilapmy/NniZdCLofCJOCM4Xainbcw+cSNSyAevAcEKCGhXl+yYST5D5iSHChGjiIpHSvS/xZAYFESWkAVbsX0pwTpVskLEIEXZfaV20ag9a+kFygEZFCIlaVFTvI0y9iYhdBAhHJDsopXIvaOpIFECg4U9I8mQSqd7Pm3Egl6+P6k3YpfiiZW2p2lcflo3fYPQk7N4SdYyUun31iY5NIl491Y+Q0UMbzkYgeqdath630Yewe4unLCzJE+Uec07H9ZlabCbsErJqtjSdUULYRdORplRxE2F3hCd+HWk8Z4ZhMRJ5qbeN9YTd0T2rgwqfs4L453B+rZt8qyOM+eDZpbx4nPdkzuziyK56lriasNu9494/zzO70B1gyuWmQq9WEHZHt2gRQqn4nbtGySyWyMu8LPFfRtgdvf/i3z4pnmfnlR9HS5GXY+Ga5gi73VH3/i0MHnD+IVuf2vJ0vLTvpSFUS2ZHr/dvWEFsvfifYQluzNAs54Px7HK47E8Twtf32/u7tx8h4aQA55Bax8f+hwQ6S/bERzfTBDsPmJ7ROJmAZzqf9uxmisDncqMb3ZxaCGerE3ZePqHUVGnVEE4Pp263txxqstJ1hTGMrM0HS11hSG3pz39Fodauv64vboK3CD+J1BeDNpRv4cVSHy8NJctNBWq8zNRHSD7zhBJ+esvfWC3RXGT4uRGby0E8yig/c0dt6qJ+hJ9Y3fisi/Aqhf2sRsNrzYBfse/nNP1+G614ljMvD6fGKcjBs4bXt2B7+tkija++JSD+JemfK17034IEKLr/TIYRqIpElhV8Hn2DbOYELZyYfo4k4wKqwgKXhoROFVME3OcIXfwShZrToIpnzQedMNTMFFXKZpdCE3bODifjOxB25SAt0TrVDqKk7Wtpi9AiZsUGSXzKdYIRniJo9AgFgxLyCsRwoW9zwNg+YEmvZERlwthQhbVBQkQuuYVkzdqJg7nv0wcwrpk7irI30Yva7asT1v0LQtjp9NvTOTfsXX2DEMaygo/q9ZAd1T64EoYwjh1Du6t79oa+WkIRxnIRTuusyTsaFCUgYRwhz0JArmfsXcNtCUoo5YrXXfdXoRsUnDCWaE6zIA9ztmkokTYIpUSzPRJ/bPerNuiktEWoJLo4TppWUO8mx1lbcEpaJUykP7xcjXuD9WK72xxipsNmt12sB73x6nIYwKI3yf8ADKgD98NT/TkAAAAASUVORK5CYII=",
       "car_model": "3 Series",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -205,12 +205,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/zlVB7/s3/2022-bmw-3-series.jpg"
+      "image_url": "https://cdn.motor1.com/images/mgl/174Wp/s1/2019-bmw-3-series.jpg"
     },
     {
       "id": 13,
       "car": "Honda",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Honda-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/03/Honda-logo.png",
       "car_model": "Civic",
       "car_transmission": "manual",
       "car_condition": "used",
@@ -222,7 +222,7 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/Q2wDZ/s3/honda-civic.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/img-7295-10-1666813703.jpg"
     },
     {
       "id": 14,
@@ -239,12 +239,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/JBZNj/s3/2022-ford-mustang.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/4e9a7794-1663012415.jpg?resize=2048:*"
     },
     {
       "id": 15,
       "car": "Nissan",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/04/Nissan-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nissan_logo.png/1196px-Nissan_logo.png",
       "car_model": "Rogue",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -256,12 +256,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/x8GeW/s3/2022-nissan-rogue.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/2021_Nissan_Rogue.jpg"
     },
     {
       "id": 16,
       "car": "Toyota",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Toyota-Logo.png",
+      "car_logo": "https://seeklogo.com/images/T/toyota-logo-08A29AEE08-seeklogo.com.png",
       "car_model": "Camry",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -273,12 +273,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/k6PW3/s3/2022-toyota-camry-hero-front.jpg"
+      "image_url": "https://www.motortrend.com/uploads/sites/5/2019/09/2020-Toyota-Camry-TRD-in-wind-chill-pearl-with-midnight-black-metallic-roof-11.jpg?fit=around%7C875:492"
     },
     {
       "id": 17,
       "car": "BMW",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/BMW-Logo.png",
+      "car_logo": "data:image/png;base64,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",
       "car_model": "X5",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -290,12 +290,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/7AQKX/s3/2022-bmw-x5.jpg"
+      "image_url": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X5-2023/10452/1688992642182/front-left-side-47.jpg"
     },
     {
       "id": 18,
       "car": "Honda",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Honda-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/03/Honda-logo.png",
       "car_model": "Civic",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -307,7 +307,7 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/BjW6z/s3/2022-honda-civic-type-r.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2017_Honda_Civic_SR_VTEC_1.0_Front.jpg"
     },
     {
       "id": 19,
@@ -324,12 +324,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/ZJXAB/s3/2023-ford-mustang-shelby-gt500.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/4e9a7794-1663012415.jpg?resize=2048:*"
     },
     {
       "id": 20,
       "car": "Chevrolet",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Chevrolet-Logo.png",
+      "car_logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
       "car_model": "Tahoe",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -341,12 +341,12 @@
       "availability": false,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/48Nk6/s3/2021-chevrolet-tahoe.jpg"
+      "image_url": "https://www.thedrive.com/content/2020/11/IMG_9023-copy-2.jpg?quality=85&crop=16%3A9&auto=webp&optimize=high&quality=70&width=1440"
     },
     {
       "id": 21,
       "car": "Audi",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Audi-Logo.png",
+      "car_logo": "https://logowik.com/content/uploads/images/562_audi.jpg",
       "car_model": "A4",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -358,12 +358,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/9VkXE/s3/2022-audi-a4-facelift-rendering.jpg"
+      "image_url": "https://www.topgear.com/sites/default/files/cars-car/image/2021/03/audiuk0002285520audi20a420avant.jpg"
     },
     {
       "id": 22,
       "car": "Nissan",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Nissan-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nissan_logo.png/1196px-Nissan_logo.png",
       "car_model": "Rogue",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -375,12 +375,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/MvxNQ/s3/2021-nissan-rogue.jpg"
+      "image_url": "https://cdn-ds.com/chrome/2023-Nissan-Rogue-SV-Manassas-VA/seo/MzI0ODgwXk1lZGlhIEdhbGxlcnk/NIxYd_3Lpe6dzmwWaDbnY6CbBLXjFvftl2GMwRF5Lf9UTBP2f2MO0_cPOQ6vmUZgDJdk2OTaxmCBSuHEdhWwj8vtHx4zklgih8bpuI21oQKG6HggcSmcfDsR2Q8WJmYUsQDu22XQANELZatZFBBak9bsuhiDRc6xyf6RaODqZuo/cc_2023NIS110164_01_1280_K23.jpg"
     },
     {
       "id": 23,
       "car": "Volkswagen",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Volkswagen-Logo.png",
+      "car_logo": "https://assets.stickpng.com/images/580b585b2edbce24c47b2cf2.png",
       "car_model": "Golf",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -392,12 +392,12 @@
       "availability": false,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/0NwNx/s3/2022-volkswagen-golf-mk8-rendered.jpg"
+      "image_url": "https://uploads.vw-mms.de/system/production/images/vwn/031/610/images/4e70ca0f552b85ab3ae5a980dc3639f876527226/DB2019AU01933_web_1600.jpg?1658153751"
     },
     {
       "id": 24,
       "car": "Kia",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Kia-Logo.png",
+      "car_logo": "https://m.media-amazon.com/images/I/61AsdJmsRvL._AC_UF1000,1000_QL80_.jpg",
       "car_model": "Sorento",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -409,12 +409,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/gmMWp/s3/2021-kia-sorento.jpg"
+      "image_url": "https://i.ytimg.com/vi/ysa8kFuyDGI/maxresdefault.jpg"
     },
     {
       "id": 25,
       "car": "Subaru",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Subaru-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/03/Subaru-Logo-1999.jpg",
       "car_model": "Outback",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -426,12 +426,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/oZWGz/s3/2022-subaru-outback.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/2020_Subaru_Outback_AWD%2C_front.jpg"
     },
     {
       "id": 26,
       "car": "Jeep",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Jeep-Logo.png",
+      "car_logo": "https://logos-world.net/wp-content/uploads/2021/09/Jeep-Logo.png",
       "car_model": "Wrangler",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -443,12 +443,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/qWjXW/s3/2022-jeep-wrangler.jpg"
+      "image_url": "https://images.cars.com/cldstatic/wp-content/uploads/jeep-wrangler-willys-4xe-2023-exterior-oem-02.jpg"
     },
     {
       "id": 27,
       "car": "Lexus",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Lexus-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Lexus_division_emblem.svg/1200px-Lexus_division_emblem.svg.png",
       "car_model": "RX",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -460,12 +460,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/kO7e3/s3/2022-lexus-rx.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2023-lexus-rx-500h-385-647601e47a2c3.jpg?crop=0.641xw:0.717xh;0.0833xw,0.283xh&resize=640:*"
     },
     {
       "id": 28,
       "car": "Hyundai",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Hyundai-Logo.png",
+      "car_logo": "https://logohistory.net/wp-content/uploads/2023/01/Hyundai-Logo.png",
       "car_model": "Tucson",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -477,12 +477,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/0J2yv/s3/2022-hyundai-tucson.jpg"
+      "image_url": "https://cdn.motor1.com/images/mgl/gLJM7/s1/4x3/2021-hyundai-tucson.webp"
     },
     {
       "id": 29,
       "car": "Volvo",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Volvo-Logo.png",
+      "car_logo": "https://seeklogo.com/images/V/volvo-logo-C0F7715FCB-seeklogo.com.png",
       "car_model": "XC90",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -494,12 +494,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/14Dvq/s3/2022-volvo-xc90.jpg"
+      "image_url": "https://images.cars.com/cldstatic/wp-content/uploads/volvo-xc90-t6-r-design-2020-18-angle--blue--exterior--front--mountains--trees.jpg"
     },
     {
       "id": 30,
       "car": "Mazda",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Mazda-Logo.png",
+      "car_logo": "https://logos-world.net/wp-content/uploads/2020/05/Mazda-Logo.png",
       "car_model": "CX-5",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -511,12 +511,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/jq7KE/s3/2021-mazda-cx-5.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2022-mazda-cx-5-2p5-turbo-signature-123-1657559083.jpg?crop=0.741xw:0.834xh;0.124xw,0.166xh&resize=640:*"
     },
     {
       "id": 31,
       "car": "Tesla",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Tesla-Logo.png",
+      "car_logo": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/1200/675/TESLA-LOGO.jpg?ve=1&tl=1",
       "car_model": "Model 3",
       "car_transmission": "automatic",
       "car_condition": "new",
@@ -528,12 +528,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/qoWYj/s3/2022-tesla-model-3.jpg"
+      "image_url": "https://editorial.pxcrush.net/carsales/general/editorial/tesla-model-3-19-brqx.jpg?width=1024&height=683"
     },
     {
       "id": 32,
       "car": "Chrysler",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Chrysler-Logo.png",
+      "car_logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngmart.com%2Fimage%2F140169&psig=AOvVaw2N1q9HF070kSnGuWuFXvhs&ust=1691055758354000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNid5-DXvYADFQAAAAAdAAAAABAI",
       "car_model": "300",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -545,12 +545,12 @@
       "availability": false,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/Me1l3/s3/2022-chrysler-300.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/2016_Chrysler_300_Limited_AWD_front_4.22.19.jpg"
     },
     {
       "id": 33,
       "car": "Jaguar",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Jaguar-Logo.png",
+      "car_logo": "https://www.carlogos.org/logo/Jaguar-logo-2012-1920x1080.png",
       "car_model": "F-Type",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -562,12 +562,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/kw3K1/s3/2022-jaguar-f-type.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2017_Jaguar_F-Type_V6_R-Dynamic_Automatic_3.0_Front.jpg"
     },
     {
       "id": 34,
       "car": "Acura",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Acura-Logo.png",
+      "car_logo": "https://listcarbrands.com/wp-content/uploads/2016/01/Acura-Logo.png",
       "car_model": "MDX",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -579,12 +579,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/ZKBGy/s3/2022-acura-mdx.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/2022_Acura_MDX_%28United_States%29_front_view_01.png"
     },
     {
       "id": 35,
       "car": "GMC",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/GMC-Logo.png",
+      "car_logo": "https://car-brand-names.com/wp-content/uploads/2016/02/GMC-Logo.png",
       "car_model": "Yukon",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -596,12 +596,12 @@
       "availability": false,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/MQxQe/s3/2022-gmc-yukon.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2023-gmc-yukon-denali-ultimate-101-1651589972.jpg?crop=0.712xw:0.711xh;0.288xw,0.189xh&resize=640:*"
     },
     {
       "id": 36,
       "car": "Porsche",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Porsche-Logo.png",
+      "car_logo": "https://www.freepnglogos.com/uploads/porsche-logo-16.png",
       "car_model": "911",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -613,12 +613,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/v2z2e/s3/2022-porsche-911.jpg"
+      "image_url": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1685458010/autoexpress/2023/05/Porsche%20911%20GTS%20UK%20001_otx6j7.jpg"
     },
     {
       "id": 37,
       "car": "Land Rover",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Land-Rover-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/LandRover.svg/1200px-LandRover.svg.png",
       "car_model": "Range Rover",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -630,12 +630,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/wr3dJ/s3/2022-land-rover-range-rover.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/2016_Land_Rover_Range_Rover_Vogue_%28L_405_MY17%29_wagon_%282018-11-29%29_01.jpg"
     },
     {
       "id": 38,
       "car": "Ferrari",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Ferrari-Logo.png",
+      "car_logo": "https://www.carlogos.org/car-logos/scuderia-ferrari-logo-download.png",
       "car_model": "488",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -647,12 +647,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/4LQG3/s3/2022-ferrari-488.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2017_Ferrari_488_GTB_Automatic_3.9.jpg"
     },
     {
       "id": 39,
       "car": "Aston Martin",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Aston-Martin-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2020/02/Aston-Martin-Logo.png",
       "car_model": "DB11",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -664,12 +664,12 @@
       "availability": false,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/1X32V/s3/2022-aston-martin-db11.jpg"
+      "image_url": "https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/ea97cbac-0f1f-4d92-9550-cad717d7e989/Aston%20Martin%20DB11%20%284%29.jpg?fm=jpg&auto=format"
     },
     {
       "id": 40,
       "car": "Bentley",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Bentley-Logo.png",
+      "car_logo": "https://logos-world.net/wp-content/uploads/2021/08/Bentley-Logo.png",
       "car_model": "Continental GT",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -681,12 +681,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/22en0/s3/2022-bentley-continental-gt.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2023-bentley-continental-gt-s-coupe-101-1654526518.jpg?crop=0.733xw:0.550xh;0.0798xw,0.284xh&resize=1200:*"
     },
     {
       "id": 41,
       "car": "Rolls-Royce",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Rolls-Royce-Logo.png",
+      "car_logo": "https://logowik.com/content/uploads/images/285_rollsroyce.jpg",
       "car_model": "Phantom",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -698,12 +698,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/1Q8bX/s3/2022-rolls-royce-phantom.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2019_Rolls-Royce_Cullinan_V12_Automatic_6.75_Front.jpg/800px-2019_Rolls-Royce_Cullinan_V12_Automatic_6.75_Front.jpg"
     },
     {
       "id": 42,
       "car": "Lamborghini",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Lamborghini-Logo.png",
+      "car_logo": "https://logohistory.net/wp-content/uploads/2023/01/Lamborghini-Logo.svg",
       "car_model": "Huracan",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -715,12 +715,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/4lr9r/s3/2022-lamborghini-huracan.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2022-lamborghini-huracan-tecnica-106-1657303967.jpg?crop=0.641xw:0.588xh;0.238xw,0.321xh&resize=980:*"
     },
     {
       "id": 43,
       "car": "McLaren",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/McLaren-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2020/03/McLaren-Logo.png",
       "car_model": "720S",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -732,12 +732,18 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/1X5r8/s3/2022-mclaren-720s.jpg"
-    },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/1200px-2018_McLaren_720S_V8_S-A_4.0.jpg"
+    
+
+    
+
+
+    
+  },
     {
       "id": 44,
       "car": "Bugatti",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Bugatti-Logo.png",
+      "car_logo": "https://static.vecteezy.com/system/resources/previews/020/499/854/original/bugatti-brand-symbol-logo-name-white-design-french-cars-automobile-illustration-free-vector.jpg",
       "car_model": "Chiron",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -749,12 +755,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/dw7m9/s3/2022-bugatti-chiron.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bugatti_Chiron_1.jpg/1200px-Bugatti_Chiron_1.jpg"
     },
     {
       "id": 45,
       "car": "Maserati",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Maserati-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/04/Maserati-Logo.png",
       "car_model": "Quattroporte",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -766,12 +772,12 @@
       "availability": false,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/kwpkm/s3/2022-maserati-quattroporte.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2015_Maserati_Quattroporte_DV6_Automatic_3.0_Front.jpg"
     },
     {
       "id": 46,
       "car": "Alfa Romeo",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Alfa-Romeo-Logo.png",
+      "car_logo": "https://www.motortrend.com/uploads/sites/5/2020/05/Alfa-Romeo-Logo-Badge-1910-1915-1.jpg?interpolation=lanczos-none&fit=around%7C660:371",
       "car_model": "Giulia",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -783,12 +789,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/eq0JX/s3/2022-alfa-romeo-giulia.jpg"
+      "image_url": "https://www.alfaromeo.am/content/dam/alfa/cross/awards-hub/alfa-romeo-giulia-gtam/mobile.jpg"
     },
     {
       "id": 47,
       "car": "Genesis",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Genesis-Logo.png",
+      "car_logo": "https://di-uploads-pod10.dealerinspire.com/genesisofgolden/uploads/2021/11/tquxKlRgw71jwUWAeEbS7MYiTYa2GFnRAidQXvAY.jpg",
       "car_model": "G70",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -800,12 +806,12 @@
       "availability": true,
       "Damages": true,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/zyYM5/s3/2022-genesis-g70.jpg"
+      "image_url": "https://www.motortrend.com/uploads/2022/06/001-2022-Genesis-GV70-Arrival.jpg"
     },
     {
       "id": 48,
       "car": "Infiniti",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Infiniti-Logo.png",
+      "car_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Infiniti_logo_2023.svg",
       "car_model": "Q50",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -817,12 +823,12 @@
       "availability": true,
       "Damages": false,
       "theft": true,
-      "image_url": "https://cdn.motor1.com/images/mgl/x4VLB/s3/2022-infiniti-q50.jpg"
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/dsc-9597alt-copy-1674571716.jpg?crop=0.614xw:0.462xh;0.208xw,0.411xh&resize=1200:*"
     },
     {
       "id": 49,
       "car": "Lotus",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Lotus-Logo.png",
+      "car_logo": "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/1_lotus_roundel_primary_2019.jpg",
       "car_model": "Evora",
       "car_transmission": "automatic",
       "car_condition": "used",
@@ -834,12 +840,12 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/LDmYl/s3/2022-lotus-evora.jpg"
+      "image_url": "https://media.autoexpress.co.uk/image/private/s--qjxrgEzf--/v1676042904/evo/2023/02/Lotus%20Evora%20main.jpg"
     },
     {
       "id": 50,
       "car": "Subaru",
-      "car_logo": "https://logos-world.net/wp-content/uploads/2021/05/Subaru-Logo.png",
+      "car_logo": "https://1000logos.net/wp-content/uploads/2018/03/Subaru-Logo-1999.jpg",
       "car_model": "BRZ",
       "car_transmission": "manual",
       "car_condition": "used",
@@ -851,7 +857,7 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://cdn.motor1.com/images/mgl/r5dNW/s3/2022-subaru-brz.jpg"
+      "image_url": "https://www.cnet.com/a/img/resize/0dfd4862f066540516fa1b2d6cd50cc583587dd8/hub/2018/02/01/e99055cb-1a25-47ff-81a1-4e83b098c7cd/2018-subaru-brz-ts-1.jpg?auto=webp&width=1200"
     }
     
     
