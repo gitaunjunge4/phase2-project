@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.biggerDiv{
+  background-color: pink;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
+.card-img-top{
+  height: 12rem;
+  width: 100%;
+}
+
+.card-text{
+  text-align: left;
+}
+
+.card-body > button {
+  float: left;
+}
+
+.card-title{
+  text-align: left;
+}

@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
+import Homepage from "./components/Homepage";
+
 
 function App() {
+
+  const [cars, setCars] = useState([])
+
+  useEffect(()=>{
+    fetch("http://localhost:3000/cars")
+    .then((r)=> r.json())
+    .then(data =>{
+      console.log(data)
+      setCars(data)
+    })
+  }, [])
+
+  const eachCar = cars.map((element)=>{
+    return(
+
+      <Homepage key={element.id} car={element}/>
+  
+    )
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hi</h1>
+          <div className='biggerDiv'>
+          {eachCar}
+          </div>
     </div>
   );
 }
