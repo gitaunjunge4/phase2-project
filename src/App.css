@@ -38,7 +38,7 @@
 }
 
 .biggerDiv{
-  background-color: pink;
+  background-color: black;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -52,6 +52,7 @@
 .card-img-top{
   height: 12rem;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .card-text{
@@ -64,4 +65,8 @@
 
 .card-title{
   text-align: left;
+}
+
+#price{
+  color: red;
 }
