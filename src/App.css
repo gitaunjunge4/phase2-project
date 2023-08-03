@@ -74,12 +74,23 @@
 
 #viewCar{
   float: left;
+  background-color: rgb(30, 30, 165);
 }
 
 #deleteCar{
   float: right;
-  background-color: rgb(230, 81, 81);
+  background-color: rgb(194, 43, 43);
 }
+
+#headerImage{
+  width: 25vh;
+  height: 25vh;
+}
+
+#header{
+  background-color: black;
+}
+
 
 .footer{
   height: 150px;
