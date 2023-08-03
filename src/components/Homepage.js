@@ -7,14 +7,14 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 // import { useState, useEffect } from 'react';
 
 
-function Homepage({car}){
+function Homepage({car, onDelete}){
     const gearsIcon = <FontAwesomeIcon icon={faGears} />
     const engineIcon = <FontAwesomeIcon icon={faTree} />
     const trashIcon = <FontAwesomeIcon icon={faTrash} />
 
 
     return(
-        <>
+        <>        
         <div className="card" style={{width:"18rem", height:"25rem"}}>
             <img src={car.image_url} className="card-img-top" alt="Image"/>
             <div className="card-body">
@@ -24,7 +24,7 @@ function Homepage({car}){
                 <p className="card-text"> {engineIcon} <b>Engine capacity: {car.car_engine_size}</b></p>
 
                 <button className='btn btn-primary' id="viewCar">View Car</button>
-                <button className='btn btn-primary' id="deleteCar">{trashIcon}</button>
+                <button className='btn btn-primary' id="deleteCar" onClick={onDelete}>{trashIcon}</button>
 
             </div>
         </div>
