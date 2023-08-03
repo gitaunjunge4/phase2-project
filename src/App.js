@@ -2,6 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
+import Footer from "./components/Footer";
+import Header from "./components/Header"
 import Carpage from './components/Carpage';
 
 
@@ -19,23 +21,37 @@ function App() {
     })
   }, [])
 
-  const eachCar = cars.map((element)=>{
+  function handleDelete(id){
+    return (
+      setCars(cars.filter((car) => car.id !== id))
+      )
+  };
+
+  const eachCar = cars.map((car)=>{
     return(
 
-      <Homepage key={element.id} car={element}/>
+      <Homepage
+       key={car.id}
+        car={car}
+        onDelete={() => handleDelete(car.id)}
+      />
   
     )
   })
 
   return (
     <div className="App">
-      {/* <h1>Hi</h1>
+      <Header />
           <div className='biggerDiv'>
           {eachCar}
-          </div> */}
+          </div>
         <Carpage />    
+          <Footer/>
+          
     </div>
   );
+
+
 }
 
 export default App;

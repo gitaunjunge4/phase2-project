@@ -61,6 +61,7 @@
   line-height: 0.7rem;
 }
 
+/* .card-body > button {} */
 
 
 .card-title{
@@ -74,13 +75,13 @@
 
 #viewCar{
   float: left;
+  background-color: rgb(30, 30, 165);
 }
 
 #deleteCar{
   float: right;
   background-color: rgb(230, 81, 81);
 }
-/* carPage styles  */
 
 
 .car-img-display-div{
