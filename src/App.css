@@ -63,6 +63,7 @@
 
 /* .card-body > button {} */
 
+
 .card-title{
   text-align: left;
 
@@ -79,20 +80,80 @@
 
 #deleteCar{
   float: right;
-  background-color: rgb(194, 43, 43);
-}
-
-#headerImage{
-  width: 25vh;
-  height: 25vh;
-}
-
-#header{
-  background-color: black;
+  background-color: rgb(230, 81, 81);
 }
 
 
-.footer{
-  height: 150px;
-  background-color:grey ;
+.car-img-display-div{
+  width: 65%;
+}
+
+#carMain{
+  width: 65%;
+  float: left;
+  height: 100vh;
+   padding: 1%;
+  padding-top: 7rem;
+  
+}
+
+.carDisplay{
+  display: flex;
+  width: 100%;
+}
+
+
+#car-img-display {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  padding-top: 4rem;
+}
+
+#car-display-price{
+  width: 75%;
+  padding-left: 2rem; ;
+  padding-top: 2.9rem;
+  margin-bottom: 19%;
+  height:12rem;
+}
+/* styling for boolen values  */
+#car-boolen-values{
+  margin-top: 2%;
+  display: flex;
+ justify-content: space-between;
+
+}
+
+
+#car-safety-tip{
+
+  padding-left: 2rem;
+  margin-bottom:7% ;
+}
+#car-display-feedback{
+
+  padding-left: 2rem;
+
+}
+
+section>{
+  width: 100vh;
+}
+
+
+#car-details-card{
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  border-radius:0%;
+ background-color: whitesmoke;
+ justify-content: space-between;
+}
+#car-logo{
+  width: 7rem;
+  border-radius: 12rem;
+  height: 7rem;
+  align-items: start;
+  float: left;
 }
