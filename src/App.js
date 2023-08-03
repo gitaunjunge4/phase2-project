@@ -2,7 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
-
+import Filterbar from './components/Filterbar';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -37,12 +38,16 @@ function App() {
 
   return (
     <div className="App">
-      <h1>CarHub</h1>
+      <h1>Hi</h1>
           <div className='biggerDiv'>
           {eachCar}
           </div>
+          <Footer/>
+          
     </div>
   );
+
+
 }
 
 export default App;
