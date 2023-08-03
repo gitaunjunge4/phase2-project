@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
-
+import AboutUs from './components/AboutUs';
 
 function App() {
 
@@ -41,6 +41,7 @@ function App() {
           <div className='biggerDiv'>
           {eachCar}
           </div>
+          <AboutUs/>
     </div>
   );
 }
