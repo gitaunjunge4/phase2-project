@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Filterbar from "./components/Filterbar";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Filterbar/>
           <div className='biggerDiv'>
           {eachCar}
           </div>
