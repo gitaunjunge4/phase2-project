@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.biggerDiv{
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 1rem;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 15px grey;
+}
+
+.card-img-top{
+  height: 12rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.card-text{
+  text-align: left;
+  line-height: 0.7rem;
+}
+
+.card-body > button {
+
+}
+
+.card-title{
+  text-align: left;
+
+}
+
+#price{
+  color: red;
+}
+
+#viewCar{
+  float: left;
+}
+
+#deleteCar{
+  float: right;
+  background-color: rgb(230, 81, 81);
+}
+
