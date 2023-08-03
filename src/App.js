@@ -2,6 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
+import Carpage from './components/Carpage';
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
           <div className='biggerDiv'>
           {eachCar}
           </div>
+        <Carpage />    
     </div>
   );
 }
