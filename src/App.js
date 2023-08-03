@@ -18,10 +18,20 @@ function App() {
     })
   }, [])
 
-  const eachCar = cars.map((element)=>{
+  function handleDelete(id){
+    return (
+      setCars(cars.filter((car) => car.id !== id))
+      )
+  };
+
+  const eachCar = cars.map((car)=>{
     return(
 
-      <Homepage key={element.id} car={element}/>
+      <Homepage
+       key={car.id}
+        car={car}
+        onDelete={() => handleDelete(car.id)}
+      />
   
     )
   })
@@ -29,13 +39,6 @@ function App() {
   return (
     <div className="App">
       <h1>Hi</h1>
-          <div>
-            
-            <Filterbar />
-
-           
-          </div>
-          
           <div className='biggerDiv'>
           {eachCar}
           </div>
