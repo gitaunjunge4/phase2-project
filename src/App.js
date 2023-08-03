@@ -2,6 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
+import Footer from "./components/Footer";
+import Header from "./components/Header"
 
 
 function App() {
@@ -37,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>CarHub</h1>
+      <Header />
           <div className='biggerDiv'>
           {eachCar}
           </div>
