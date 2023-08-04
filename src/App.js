@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Navbar from './components/Navbar';
 import Carpage from './components/Carpage';
 
 
@@ -41,7 +42,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+          {/* <Header /> */}
+          <Navbar />
           <div className='biggerDiv'>
           {eachCar}
           </div>
