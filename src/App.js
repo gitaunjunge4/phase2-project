@@ -5,7 +5,10 @@ import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
 import Header from "./components/Header"
 import Carpage from './components/Carpage';
-
+import { Route,Routes, } from 'react-router-dom';
+import Yard from './components/Yard';
+import Contact from './components/Contact';
+ 
 
 
 function App() {
@@ -27,29 +30,21 @@ function App() {
       )
   };
 
-  const eachCar = cars.map((car)=>{
-    return(
-
-      <Homepage
-       key={car.id}
-        car={car}
-        onDelete={() => handleDelete(car.id)}
-      />
-  
-    )
-  })
-
+ 
   return (
-    <div className="App">
-      <Header />
-          <div className='biggerDiv'>
-          {eachCar}
-          </div>
-        <Carpage />    
-          <Footer/>
-          
-    </div>
-  );
+
+  <Routes>
+
+<Route path='/carpage/:carID' element={<Carpage  car={cars}/>} />
+<Route path='/' element={<Homepage car={cars}/>} />
+<Route path='/yard' element={<Yard car={cars} />} />
+<Route path='/contact' element={<Contact />}/>
+
+  </Routes>
+   
+
+
+  )
 
 
 }

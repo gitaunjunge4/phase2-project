@@ -20,7 +20,7 @@
     {
       "id": 2,
       "car": "Toyota",
-      "car_logo": "https://seeklogo.com/images/T/toyota-logo-08A29AEE08-seeklogo.com.png",
+      "car_logo": "https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_ogp_001.png",
       "car_model": "Camry",
       "car_transmission": "automatic",
       "car_condition": "new",
@@ -32,7 +32,7 @@
       "availability": true,
       "Damages": false,
       "theft": false,
-      "image_url": "https://global.toyota/pages/models/images/camry/camry_010_s.jpg"
+      "image_url": "https://images.drive.com.au/driveau/image/upload/t_wp-default/v1/cms/uploads/jhcmbj8kqexujkz8b5kc"
     },
     {
       "id": 3,
