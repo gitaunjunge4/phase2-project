@@ -5,7 +5,7 @@ export default function Filterbar() {
 
         <select id="cars">
           <option value="Mitsubishi">Mitsubishi</option>
-          <option value="saab">Saab</option>
+          <option value="Lamborgini">Lamborghini</option>
           <option value="opel">Opel</option>
           <option value="audi">Audi</option>
         </select>
