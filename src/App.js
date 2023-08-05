@@ -2,9 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Navbar from './components/Navbar';
+
 import Carpage from './components/Carpage';
 import { Route,Routes, } from 'react-router-dom';
 import Yard from './components/Yard';
@@ -24,12 +22,6 @@ function App() {
       setCars(data)
     })
   }, [])
-
-  function handleDelete(id){
-    return (
-      setCars(cars.filter((car) => car.id !== id))
-      )
-  };
 
  
   return (
