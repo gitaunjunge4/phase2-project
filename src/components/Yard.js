@@ -10,6 +10,25 @@ import { Link } from "react-router-dom";
 function Yard({ car }) {
 
 
+// button to the add car route
+function addCarBtn(){
+  return (
+    <React.Fragment>
+       <Link to="/sell">
+        <button
+        id="btnSell"
+          className="btn btn-success"
+          // style={{ marginTop:"5%",display:"flex",fontSize: "25px", borderRadius: "10px" }}
+        >
+          Sell Car 
+        </button>
+        </Link>
+    </React.Fragment>
+  )
+}
+
+
+
 const gearsIcon = <FontAwesomeIcon icon={faGears} />;
   const engineIcon = <FontAwesomeIcon icon={faTree} />;
 
@@ -124,6 +143,7 @@ const gearsIcon = <FontAwesomeIcon icon={faGears} />;
   return (
     <div>
       {yardBar()}
+      <div style={{display:"flex",marginTop:"8%",justifyContent:"center"}}>{addCarBtn()}</div>
 
       <div className="biggerDiv">{displayCar}</div>
     </div>

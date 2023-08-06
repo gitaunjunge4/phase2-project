@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Yard from "./components/Yard";
 import Contact from "./components/Contact";
 import AboutUs from "./components/AboutUs";
+import AddCar from "./components/AddCar";
 
 function App() {
   const [cars, setCars] = useState([]);
@@ -33,6 +34,7 @@ function App() {
       <Route  path="/about"  element={<AboutUs />}/>
       <Route path="/yard" element={<Yard car={cars} />} />
       <Route path="/contact" element={<Contact />} />
+      <Route  path="/sell" element={<AddCar />}/>
     </Routes>
   );
 }
