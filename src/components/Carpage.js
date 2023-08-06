@@ -201,5 +201,5 @@ export default function Carpage({ car }) {
 
   console.log(displayWhip);
 
-  return <div>{displayWhip}</div>;
+  return <div >{displayWhip}</div>;
 }
