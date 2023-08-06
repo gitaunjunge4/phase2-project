@@ -2,10 +2,12 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
-import Footer from "./components/Footer";
-import Header from "./components/Header"
+
 import Carpage from './components/Carpage';
-import Filterbar from './components/Filterbar';
+import { Route,Routes, } from 'react-router-dom';
+import Yard from './components/Yard';
+import Contact from './components/Contact';
+ 
 
 
 function App() {
@@ -21,31 +23,26 @@ function App() {
     })
   }, [])
 
-  function handleDelete(id){
-    return (
-      setCars(cars.filter((car) => car.id !== id))
-      )
-  };
 
-  const eachCar = cars.map((car)=>{
-    return(
 
-      <Homepage
-       key={car.id}
-        car={car}
-        onDelete={() => handleDelete(car.id)}
-      />
-  
-    )
+  // function handle sort for the yard page
+function Search(obj){
+  let tester =[];
+  cars.filter((element)=>{
+    element.id = 23;
+    return (tester)
+
+
   })
+}
 
+ 
   return (
     <div className="App">
       <Header />
           <div className='biggerDiv'>
           {eachCar}
           </div>
-          <Filterbar/>
         <Carpage />    
           <Footer/>
           
