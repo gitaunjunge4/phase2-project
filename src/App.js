@@ -7,6 +7,7 @@ import Carpage from "./components/Carpage";
 import { Route, Routes } from "react-router-dom";
 import Yard from "./components/Yard";
 import Contact from "./components/Contact";
+import AboutUs from "./components/AboutUs";
 
 function App() {
     const [cars, setCars] = useState([]);
@@ -45,11 +46,12 @@ function App() {
 
     return (
     <Routes>
-      <Route path="/carpage/:carID" element={<Carpage car={cars} />} />
-      <Route path="/" element={<Homepage car={cars} />} />
-      <Route path="/yard" element={<Yard car={cars} />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/addcar" element={<Addcar onAdd={addCar}/>} />
+      <Route exact path="/carpage/:carID" element={<Carpage car={cars} />} />
+      <Route exact path="/" element={<Homepage car={cars} />} />
+      <Route exact path="/yard" element={<Yard car={cars} />} />
+      <Route exact path="/contact" element={<Contact />} />
+      <Route exact path="/about" element={<AboutUs />} />
+      <Route exact path="/addcar" element={<Addcar onAdd={addCar}/>} />
     </Routes>
     );
 }
