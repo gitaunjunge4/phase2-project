@@ -1,49 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGears } from "@fortawesome/free-solid-svg-icons";
 import { faTree } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
-function Yard({ car  ,Search}) {
-// state
-const [showCar, setshowCar] = useState();
+
+function Yard({ car }) {
 
 
-useEffect(()=>
-setshowCar(car),
-[])
-
-console.log(car)
-// end of state 
-
-
-function handleChange(e){
-  setshowCar(e.target.value)
-}
-
-
-function handleSubmit(e){
-  e.preventDefault()
-  return  Search(showCar)
-
-}
-console.log(showCar)
-
-
-
-
-
-
-  const gearsIcon = <FontAwesomeIcon icon={faGears} />;
+const gearsIcon = <FontAwesomeIcon icon={faGears} />;
   const engineIcon = <FontAwesomeIcon icon={faTree} />;
 
   const displayCar = car.map((carID) => {
     return (
       <div>
-        <div key={carID.id} className="card" style={{ width: "18rem", height: "27rem" }}>
+        <div
+          key={carID.id}
+          className="card"
+          style={{ width: "18rem", height: "27rem" }}
+        >
           <img src={carID.image_url} className="card-img-top" alt="Image" />
           <div className="card-body">
             <h5 className="card-title">
@@ -121,13 +98,16 @@ console.log(showCar)
               </Link>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0" onSubmit={(e)=>handleSubmit(e)}>
+          <form
+            className="form-inline my-2 my-lg-0"
+           
+          >
             <input
               className="form-control mr-sm-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
-              onChange={(e)=>{handleChange(e)}}
+             
             />
             <button
               className="btn btn-outline-success my-2 my-sm-0"

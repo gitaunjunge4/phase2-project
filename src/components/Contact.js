@@ -1,6 +1,36 @@
 import React from 'react'
 
 function Contact() {
+
+
+function displayMessage(e){
+	e.preventDefault()
+	return(
+		<div>
+			<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">
+  <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+    <div class="toast-header">
+      <img src="..." class="rounded mr-2" alt="..."/>
+      <strong class="mr-auto">Message</strong>
+      <small>10 seconds ago</small>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      Message received succesfuly.
+    </div>
+  </div>
+</div>
+
+		</div>
+	)
+}
+
+
+
   return (
     <div>
 
@@ -13,7 +43,7 @@ function Contact() {
 		<div className="row">
 			<div className="col-lg-7">	
 				<div className="contact">
-					<form className="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+					<form className="form" name="enq" >
 						<div className="row">
 							<div className="form-group col-md-6">
 								<input type="text" name="name" className="form-control" placeholder="Name" required="required"/>
@@ -28,7 +58,7 @@ function Contact() {
 								<textarea rows="6" name="message" className="form-control" placeholder="Your Message" required="required"></textarea>
 							</div>
 							<div className="col-md-12 text-center">
-								<button type="submit" value="Send message" name="submit" id="submitButton" className="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+								<button type="submit" onClick={(e)=>displayMessage(e)} value="Send message" name="submit" id="submitButton" className="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
 							</div>
 						</div>
 					</form>
