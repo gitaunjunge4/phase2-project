@@ -5,7 +5,7 @@ import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
 import Header from "./components/Header"
 import Carpage from './components/Carpage';
-
+import Filterbar from './components/Filterbar';
 
 
 function App() {
@@ -45,6 +45,7 @@ function App() {
           <div className='biggerDiv'>
           {eachCar}
           </div>
+          <Filterbar/>
         <Carpage />    
           <Footer/>
           
