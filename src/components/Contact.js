@@ -13,7 +13,7 @@ function Contact() {
 		<div className="row">
 			<div className="col-lg-7">	
 				<div className="contact">
-					<form className="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+					<form className="form" name="enq" method="post" action="contact.php" onSubmit="return validation();">
 						<div className="row">
 							<div className="form-group col-md-6">
 								<input type="text" name="name" className="form-control" placeholder="Name" required="required"/>
