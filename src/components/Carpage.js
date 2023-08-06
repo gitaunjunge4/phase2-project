@@ -41,7 +41,7 @@ export default function Carpage() {
             <div id="car-boolen-values">
               {/* remember to place the text according to true or false values */}
               <button className="btn btn-success">Avaliable</button>
-              <button className="btn btn-danger">stolen</button>
+              <button className="btn btn-danger">Stolen</button>
               <button className="btn btn-warning">No Damages</button>
               
               
@@ -122,17 +122,17 @@ export default function Carpage() {
 
             <div className="car-condition">
               <h5 className="text-muted">Condition</h5>
-              <p> car-condition </p>
+              <p>Car condition </p>
             </div>
 
             <div className="fuel">
               <h5 className="text-muted">Fuel-type</h5>
-              <p>Car-fuel_type</p>
+              <p>Car-fuel type</p>
             </div>
 
             <div className="color">
-              <h5 className="text-muted">color-type</h5>
-              <p>Car-color_type</p>
+              <h5 className="text-muted">Color-type</h5>
+              <p>Car-color type</p>
             </div>
 
             <div className="year">
@@ -141,8 +141,8 @@ export default function Carpage() {
             </div>
 
             <div className="engine">
-              <h5 className="text-muted">engine size</h5>
-              <p>Car-engine_type</p>
+              <h5 className="text-muted">Engine size</h5>
+              <p>Car-engine type</p>
             </div>
 
 

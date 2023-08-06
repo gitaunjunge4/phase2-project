@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -30,7 +31,6 @@ function App() {
 
   const eachCar = cars.map((car)=>{
     return(
-
       <Homepage
        key={car.id}
         car={car}
@@ -42,17 +42,22 @@ function App() {
 
   return (
     <div className="App">
-          {/* <Header /> */}
           <Navbar />
+          <Header />
           <div className='biggerDiv'>
           {eachCar}
           </div>
-        <Carpage />    
-          <Footer/>
+          {/* <BrowserRouter>
+          <Routes>
+            <Route path='/' element={eachCar}/>
+            <Route path='/carpage' element={<Carpage />}/>
+          </Routes>
+          </BrowserRouter> */}
+          
+          {/* <Carpage />     */}
           
     </div>
   );
-
 
 }
 

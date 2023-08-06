@@ -8,13 +8,13 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 
 function Homepage({car, onDelete}){
-    const gearsIcon = <FontAwesomeIcon icon={faGears} />
-    const engineIcon = <FontAwesomeIcon icon={faTree} />
-    const trashIcon = <FontAwesomeIcon icon={faTrash} />
+    const gearsIcon = <FontAwesomeIcon icon={faGears} />;
+    const engineIcon = <FontAwesomeIcon icon={faTree} />;
+    const trashIcon = <FontAwesomeIcon icon={faTrash} />;
 
 
     return(
-        <>        
+        <>      
         <div className="card" style={{width:"18rem", height:"25rem"}}>
             <img src={car.image_url} className="card-img-top" alt="Image"/>
             <div className="card-body">

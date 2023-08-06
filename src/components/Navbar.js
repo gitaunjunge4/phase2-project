@@ -1,9 +1,12 @@
 import React from 'react';
 import '../App.css';
+import { NavLink } from 'react-router-dom';
 
 function Navbar(){
     return(
         <div>
+            {/* <NavLink  to="/"> Home </NavLink>
+            <NavLink to="/carpage"> Carpage</NavLink> */}
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">CarHub</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,9 +23,6 @@ function Navbar(){
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
                 </li>
-                {/* <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li> */}
                 </ul>
             </div>
             </nav>
