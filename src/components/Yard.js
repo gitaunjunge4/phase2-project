@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGears } from "@fortawesome/free-solid-svg-icons";
 import { faTree } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-
 import { Link } from "react-router-dom";
 
 function Yard({ car  ,Search}) {

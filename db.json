@@ -151,8 +151,6 @@
       "availability": true,
       "Damages": true,
       "theft": true,
-
-
       "image_url": "https://media.ed.edmunds-media.com/volkswagen/tiguan/2022/oem/2022_volkswagen_tiguan_4dr-suv_sel-r-line_fq_oem_1_1600.jpg"
     },
     {
@@ -732,13 +730,7 @@
       "Damages": false,
       "theft": false,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/1200px-2018_McLaren_720S_V8_S-A_4.0.jpg"
-    
-
-    
-
-
-    
-  },
+    },
     {
       "id": 44,
       "car": "Bugatti",
@@ -857,10 +849,23 @@
       "Damages": false,
       "theft": false,
       "image_url": "https://www.cnet.com/a/img/resize/0dfd4862f066540516fa1b2d6cd50cc583587dd8/hub/2018/02/01/e99055cb-1a25-47ff-81a1-4e83b098c7cd/2018-subaru-brz-ts-1.jpg?auto=webp&width=1200"
+    },
+    {
+      "car": "bentley",
+      "car_logo": "data:image/png;base64,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",
+      "car_model": "continental gt",
+      "car_transmission": "manual",
+      "car_condition": "new",
+      "fuel_type": "petrol",
+      "car_color": "white",
+      "car_model_year": "2022",
+      "car_engine_size": "2300",
+      "price": "$78983",
+      "availability": false,
+      "Damages": false,
+      "theft": false,
+      "image_url": "https://www.cnet.com/a/img/resize/36696f4ab4fd274463ed702f367a1fc605f316dc/hub/2021/03/19/60b52da1-24a1-4375-8b20-ef34d60c538d/ogi1-2022-bentley-continental-gt-speed-001.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "id": 51
     }
   ]
 }
-
-
-
-
