@@ -23,6 +23,20 @@ function App() {
     })
   }, [])
 
+
+
+  // function handle sort for the yard page
+function Search(obj){
+  let tester =[];
+  cars.filter((element)=>{
+    element.id = 23;
+    return (tester)
+
+
+  })
+
+}
+
  
   return (
 
@@ -30,7 +44,7 @@ function App() {
 
 <Route path='/carpage/:carID' element={<Carpage  car={cars}/>} />
 <Route path='/' element={<Homepage car={cars}/>} />
-<Route path='/yard' element={<Yard car={cars} />} />
+<Route path='/yard' element={<Yard car={cars}  Search={Search}/>} />
 <Route path='/contact' element={<Contact />}/>
 
   </Routes>

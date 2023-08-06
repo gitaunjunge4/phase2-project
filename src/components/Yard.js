@@ -7,9 +7,10 @@ import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
-function Yard({ car }) {
+function Yard({ car  ,Search}) {
 // state
-const [showCar, setshowCar] = useState([]);
+const [showCar, setshowCar] = useState();
+
 
 useEffect(()=>
 setshowCar(car),
@@ -20,11 +21,16 @@ console.log(car)
 
 
 function handleChange(e){
-  e.preventDefault()
-  console.log(e.target.value)
- 
-  
+  setshowCar(e.target.value)
 }
+
+
+function handleSubmit(e){
+  e.preventDefault()
+  return  Search(showCar)
+
+}
+console.log(showCar)
 
 
 
@@ -115,13 +121,13 @@ function handleChange(e){
               </Link>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          <form className="form-inline my-2 my-lg-0" onSubmit={(e)=>handleSubmit(e)}>
             <input
               className="form-control mr-sm-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
-              onChange={(e)=>handleChange(e)}
+              onChange={(e)=>{handleChange(e)}}
             />
             <button
               className="btn btn-outline-success my-2 my-sm-0"
