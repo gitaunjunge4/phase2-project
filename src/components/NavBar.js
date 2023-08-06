@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export default function NavBar(){
 
     return(
-        <nav  id="CarNav" className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav  id="CarNav" className="navbar navbar-expand-lg   fixed-top navbar-light bg-light">
         <img id="navImg" src="https://i.pinimg.com/1200x/8d/70/80/8d7080b16907cac130db4d389ad113cf.jpg"/>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

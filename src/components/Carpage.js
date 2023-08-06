@@ -139,7 +139,7 @@ export default function Carpage({ car }) {
         <section>
           <div className="card">
             <h5 style={{ textAlign: "start" }} className="card-header">
-              CarName
+              {myCar.car}
             </h5>
             <img src={myCar.car_logo} id="car-logo" />
             <div className="card-body" id="car-details-card">
