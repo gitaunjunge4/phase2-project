@@ -3,6 +3,7 @@ import '../App.css';
 
 function Addcar({onAdd}){
 
+    //saves formData into state
     const [formData, setFormData] = useState({
         car: "",
         car_logo: "",
@@ -18,21 +19,22 @@ function Addcar({onAdd}){
         Damages: false,
         theft: false,
         image_url: ""
-    })
+    });
 
-
+    //updates state when input onChanges
     function handleInput(e){
         e.preventDefault();
         const name = e.target.name;
         let value = e.target.value;
-        console.log(name)
-        console.log(value)
+        console.log(name);
+        console.log(value);
         setFormData({
             ...formData,
             [name]: value
-        })
-    }
+        });
+    };
 
+    //handles onSubmit of the form 
     function handleSubmit(e){
         e.preventDefault();
         onAdd(formData)
@@ -94,6 +96,6 @@ function Addcar({onAdd}){
             </div>
         </div>
     )
-}
+};
 
 export default Addcar;
